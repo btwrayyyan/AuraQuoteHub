@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraQuoteHub</title>
+    <link rel="stylesheet" href="quotes_styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/" id="navbar_logo"> <img src="Images/logo.svg" alt="AuraQuoteHub" style="height: 50px; width: auto;"> </a>
+            <div class="navbar_toggle" id="mobile_menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>   
+            <ul class="navbar_menu">
+                <li class="navbar_item"> <a href="index.html" class="navbar_links">Home</a> </li>
+                <li class="navbar_item"> <a href="quotes.html" class="navbar_links">Quotes</a> </li>
+                <li class="navbar_item"> <a href="about.html" class="navbar_links">About</a> </li>
+                <li class="navbar_button"> <a href="sign_in.html" class="button">Sign In</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main_container">
+            <div class="main_img_container"><img src="Images/background.svg" alt="Background Image" id="main_image"></div>
+    </div>
+    <section class="quote_section">
+        <h1>AuraQuoteHub</h1>
+        <div class="quote_controls">
+            <label for="mood">What's your mood?</label>
+            <select id="mood">
+                <option value="random">Random</option>
+                <option value="happy">Happy</option>
+                <option value="sad">Sad</option>
+                <option value="inspirational">Inspirational</option>
+                <option value="love">Love</option>
+            </select>
+            <button id="generateBtn">Generate Quote</button>
+        </div>
+        <div class="quote-display">
+            <p id="quote-text">Get quote according to your mood :)</p>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
