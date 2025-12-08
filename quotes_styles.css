@@ -110,7 +110,7 @@
     transition: all 0.3s ease;
 } 
 .main_img_container {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -287,5 +287,6 @@
     min-width: 200px;
 
 }
+
 
 
