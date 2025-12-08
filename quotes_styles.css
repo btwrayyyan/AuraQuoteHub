@@ -110,7 +110,7 @@
     transition: all 0.3s ease;
 } 
 .main_img_container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -285,4 +285,5 @@
 }
 .quote_controls button, .quote_controls select {
     min-width: 200px;
+
 }
