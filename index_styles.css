@@ -120,7 +120,7 @@
     padding-top: 80px;
 }
 .main_img_container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -258,4 +258,5 @@
         width: 80%;
         margin: 10px auto;
     }
+
 }
